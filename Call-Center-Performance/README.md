@@ -18,9 +18,7 @@ Provide real-time and analytical visibility on call center activity to support:
 - Number of Active Agents
 
 ## 📷 Screenshots
-<img width="1171" height="607" alt="image" src="https://github.com/user-attachments/assets/cdc81c87-82be-4aea-ac90-f6fb0d4e8e5a" />
-
-
+<img width="1354" height="710" alt="image" src="https://github.com/user-attachments/assets/3defa090-3840-4b8d-a0a4-4d37a6554806" />
 
 ## 🛠 Tools
 - Power BI
