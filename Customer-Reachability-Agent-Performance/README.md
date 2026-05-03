@@ -1,13 +1,16 @@
 # 📞 Customer Reachability, Agent Productivity & Delta SAT
 
 ## 🎯 Business Context
-This project was designed to monitor and improve **customer contact efficiency**
-and **agent operational performance** in a multi‑attempt outbound process.
+This project was built on top of **automated data exports from an operational database mirror**.
 
-The main challenges addressed:
-- Low visibility on customer reachability across attempts
-- No clear measurement of agent productivity
-- Limited insight into satisfaction (Delta SAT) evolution over time
+The organization required:
+- Reliable, recurring data extraction
+- Stable indicators for customer reachability
+- Agent productivity monitoring
+- Quality tracking through Delta SAT metrics
+
+Thanks to the database mirror and automated exports, the data pipeline provides
+**consistent, refreshable datasets** without manual intervention.
 
 ---
 
@@ -19,6 +22,29 @@ The main challenges addressed:
 - Support operational and quality decision‑making
 
 ---
+
+## 🏗 Data Architecture & Pipeline
+
+### Data Source
+- Automated exports generated from a **database mirror**
+- Data refreshed on a recurring basis
+- No manual manipulation of source data
+
+### Processing & Modeling
+- Data cleaning and normalization
+- Business logic implemented via DAX
+- Star‑schema inspired Power BI data model
+- Performance‑optimized measures for large volumes
+
+### Analytics Layer
+- Customer reachability metrics (multi‑attempt logic)
+- Agent productivity KPIs
+- Delta SAT and quality indicators
+- Time‑based and hierarchical analysis
+
+This architecture ensures **data reliability, scalability, and reproducibility**.
+
+----
 
 ## 📊 Analytical Scopes Covered
 
