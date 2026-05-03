@@ -1,16 +1,23 @@
 # 📊 Power BI Analytics Portfolio
 
-This repository contains a collection of **professional Power BI dashboard projects**
-focused on operational performance, call center analytics, workforce monitoring,
-stock control, and quality management.
+This repository contains a collection of **professional, production‑oriented Power BI projects**
+designed for operational monitoring, performance management, and decision support.
 
-Each project demonstrates:
-- Business-oriented KPI design
-- Operational storytelling
-- Advanced filtering & drill-down logic
-- Clear dashboard UX for decision support
+The projects cover **end‑to‑end analytics workflows**, from automated data pipelines
+(database mirrors, exports, parsing) to KPI design and executive dashboards.
 
-⚠️ All dashboards use anonymized or demonstration data.
+---
+
+## ✅ What This Portfolio Demonstrates
+
+- Business‑oriented KPI design
+- Operational and quality analytics
+- Agent & workforce performance monitoring
+- Customer reachability & satisfaction tracking
+- Advanced Power BI data modeling
+- Scalable dashboards built on automated data sources
+
+⚠️ All dashboards use **anonymized or demonstration data**.  
 No confidential client or personal data is exposed.
 
 ---
@@ -18,29 +25,71 @@ No confidential client or personal data is exposed.
 ## 📁 Projects
 
 ### 📞 Call Center Performance
-Monitoring call flow, SLA, abandonment, quality score, and agent activity.
+**Purpose:** Operational supervision of inbound & outbound call activity.  
+**Key topics:**
+- Call flow & hourly load
+- SLA & treatment rates
+- Abandonment analysis
+- Agent activity monitoring
+
+---
 
 ### 🕒 Workforce Presence & Absence
-Tracking presence rate, absence, lateness, and workforce reliability by structure.
+**Purpose:** HR and operational reliability monitoring.  
+**Key topics:**
+- Presence & absence rates
+- Lateness tracking
+- Workforce reliability by structure and period
+
+---
+
+### 📞 Customer Reachability, Agent Productivity & Delta SAT
+**Purpose:** Optimize customer contact strategies and agent performance.  
+**Key topics:**
+- Customer reachability by contact attempt
+- Stock vs joined analysis
+- Agent productivity (MEA, tickets closed, hourly output)
+- Delta SAT (joined vs non‑joined customers)
+- Built on **automated exports from a database mirror**
+
+---
 
 ### 📦 Stock & Verification Control
-Operational stock supervision, error monitoring, and verification rate analysis.
+**Purpose:** Operational stock and verification performance monitoring.  
+**Key topics:**
+- Stock evolution
+- Verification success rates
+- Error distribution and root‑cause analysis
+
+---
 
 ### 🗂 Assignment Operations
-Assignment, pre-assignment, and workload distribution monitoring by actor.
+**Purpose:** Workload distribution and process efficiency.  
+**Key topics:**
+- Assignment & pre‑assignment volume
+- Weekly trends
+- Actor‑level workload and performance
 
-### ✅ Delta SAT & Quality
-Customer satisfaction tracking, SLA compliance, and quality evolution.
+---
 
-### ✅ Tech performance and intervention stats
-techniciens performance tracking , interventions stats , quality and time spent
-
+### 🛠 Tech Performance & Intervention Analytics (Sogetrel – Belgium)
+**Purpose:** Field operations analytics built from unstructured data.  
+**Key topics:**
+- PDF → structured data pipeline (Python)
+- Intervention realization & cancellation rates
+- Technician punctuality & overruns
+- Time spent per intervention
+- End‑to‑end analytics from raw PDFs to Power BI dashboards
 
 ---
 
 ## 🛠 Tools & Skills
+
 - Power BI
 - DAX (KPIs, ratios, performance measures)
-- Data modeling (star schema)
-- Operational & HR analytics
+- Data modeling (star‑schema inspired)
+- Automated data pipelines (exports, mirrors, parsing)
+- Python (ETL, PDF data extraction)
+- Operational, HR & quality analytics
 - Dashboard UX & storytelling
+``
